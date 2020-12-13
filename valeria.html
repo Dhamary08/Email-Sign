@@ -6,29 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firma Valeria</title>
     <!-- Fuente Monserrat -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap" rel="stylesheet">
+
     <style>
-        .text{
-            font-family: "Montserrat";
-            font-weight: 400;
+        .text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
             margin-top: 0;
-            /* margin-bottom: 5px; */
-            font-size: 15px;
+            margin-bottom: 3px;
+            font-size: 13px;
+            padding-left: 5px;
+            padding-bottom: 3px;
+            color: #534f40;
         }
-        .table-img{
+
+        .txt-color {
+            color: #565f06;
+            font-weight: 600;
+        }
+
+        .table-img {
             width: 120px;
             height: 120px;
+            border-right: #fad1c5 3px solid;
         }
-        .img{
-            width: 110px;
+
+        .img {
+            width: 100px;
             height: 120px;
             padding-left: 10px;
         }
-        .table-text{
-            width: 430px;
-            height: 170px;
-            font-family: "Monserrat";
-            font-size: 10px;
+
+        .color-linkedIn {
+            fill: #0077B7;
+            width: 20px;
+            height: 20px;
         }
     </style>
 </head>
@@ -39,13 +52,21 @@
     <table width="600">
         <tr>
             <td class="table-img">
-                <a href="#" target="_blank"><img src="https://raw.githubusercontent.com/Dhamary08/Email-Sign/master/vale-avatar.png" class="img"></a>
+                <a href="#" target="_blank"><img
+                        src="https://raw.githubusercontent.com/Dhamary08/Email-Sign/master/vale-avatar.png"
+                        class="img"></a>
             </td>
             <td class="table-text">
-                <p class="text"><b>Valeria Dhamary Manríquez Aravena</b></p>
-                <p class="text">+56 9 8764 5330</p>
+                <p class="text txt-color">Valeria Dhamary Manríquez Aravena</p>
+                <p class="text txt-color">+56 9 8764 5330</p>
                 <p class="text">valeria.manriquez90@gmail.com</p>
-                <p class="text">Ingeniera Civil Industrial</p>
+                <p class="text txt-color"><em> Ingeniera Civil Industrial</em></p>
+                <p class="text">Universidad de La Frontera</p>
+                <p class="text"><a href="https://www.linkedin.com/in/valeria-manriquez/" target="_blank"><svg
+                            class="color-linkedIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                        </svg></p>
             </td>
         </tr>
     </table>
