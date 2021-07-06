@@ -8,29 +8,25 @@
       body {
         font-family: Calibri, 'Trebuchet MS', sans-serif;
         color: #002451;
+        margin: 10px;
       }
       .text-bold {
-        font-weight: 800;
+        font-weight:900;
       }
       .size-big {
-        font-size: 20px;
+        font-size: 30px;
       }
       p {
         padding: 0px;
         margin: 2px;
       }
-      .table-text {
-        padding-left: 13px;
-        border-left: #3c4e5f 3px solid;
-      }
-      .table-img {
-        width: 120px;
-        height: 120px;
-      }
+      
       .img {
-        width: 90px;
-        height: 150px;
+        width: 95px;
+        height: 180px;
         padding-left: 10px;
+        margin: auto;
+        display: flex;
       }
 
       .img-linkedin {
@@ -38,39 +34,53 @@
         height: 20px;
         padding: 5px;
       }
+      .contenedor {
+        display: grid;
+        grid-template-columns: 150px 2px 1fr;
+      }
+      .color-blue{
+          background-color: #3c4e5f;
+          margin: 5px 0;
+      }
+      .border-left{
+          margin-left: 10px;
+      }
+      .d-middle{
+          display: block;
+          margin: auto 15px;
+      }
     </style>
   </head>
 
   <body>
-    <table width="600">
-      <tr>
-        <td class="table-img">
-          <a href="https://www.recoders.cl" target="_blank">
+    <div class="contenedor">
+      <div>
+        <a href="https://www.recoders.cl" target="_blank">
             <img
               src="https://raw.githubusercontent.com/Dhamary08/Email-Sign/master/check.png"
               class="img"
             />
           </a>
-        </td>
-        <td class="table-text">
-          <p class="text-bold size-big py-2">Valeria Manr&iacute;quez B.</p>
-          <p>FrontEnd Jr. Check - TI</p>
-          <p>vmanriquez@sourcing.cl</p>
-          <p>Pdte Errázuriz 2999 of 201, Las Condes</p>
-          <p><a href="http://checklaboral.cl">www.checklaboral.cl</a></p>
-          <p>
-            <a
-              href="https://www.linkedin.com/in/valeria-manriquez/"
-              target="_blank"
-            >
-              <img
-                src="https://raw.githubusercontent.com/Dhamary08/Email-Sign/master/linkedin-in.png"
-                class="img-linkedin"
-              />
-            </a>
-          </p>
-        </td>
-      </tr>
-    </table>
+      </div>
+      <div class="color-blue"></div>
+      <div class="border-left d-middle">
+        <p class="text-bold size-big py-2">Valeria Manr&iacute;quez A.</p>
+        <p>FrontEnd Jr. Check - TI</p>
+        <p>vmanriquez@sourcing.cl</p>
+        <p>Pdte Errázuriz 2999 of 201, Las Condes</p>
+        <p><a href="http://checklaboral.cl">www.checklaboral.cl</a></p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/valeria-manriquez/"
+            target="_blank"
+          >
+            <img
+              src="https://raw.githubusercontent.com/Dhamary08/Email-Sign/master/linkedin-in.png"
+              class="img-linkedin"
+            />
+          </a>
+        </p>
+      </div>
+    </div>
   </body>
 </html>
