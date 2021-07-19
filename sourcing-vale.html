@@ -4,83 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Firma Valeria</title>
+    <!-- Fuente Monserrat -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
       body {
         font-family: Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
         color: #002451;
-        margin: 10px;
       }
-      .text-bold {
-        font-weight:900;
-      }
-      .size-big {
-        font-size: 30px;
-      }
-      p {
-        padding: 0px;
-        margin: 2px;
-      }
-      
-      .img {
-        width: 95px;
-        height: 180px;
+      .border-left {
+        border-left: #002451 2px solid;
         padding-left: 10px;
-        margin: auto;
-        display: flex;
       }
-
-      .img-linkedin {
+      .size-big{
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .bold{
+        font-weight: bold;
+      }
+      .img {
+        width: 80px;
+        height: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .img-linkedIn{
         width: 20px;
         height: 20px;
-        padding: 5px;
       }
-      .contenedor {
-        display: grid;
-        grid-template-columns: 150px 2px 1fr;
-      }
-      .color-blue{
-          background-color: #3c4e5f;
-          margin: 5px 0;
-      }
-      .border-left{
-          margin-left: 10px;
-      }
-      .d-middle{
-          display: block;
-          margin: auto 15px;
+      td {
+        padding: 0;
+        margin: 0;
       }
     </style>
   </head>
 
   <body>
-    <div class="contenedor">
-      <div>
-        <a href="https://www.recoders.cl" target="_blank">
+    <table cellspacing="0" cellpadding="5">
+      <tr>
+        <th rowspan="8">
+          <a href="#" target="_blank">
             <img
               src="https://raw.githubusercontent.com/Dhamary08/Email-Sign/master/check.png"
               class="img"
             />
           </a>
-      </div>
-      <div class="color-blue"></div>
-      <div class="border-left d-middle">
-        <p class="text-bold size-big py-2">Valeria Manr&iacute;quez A.</p>
-        <p>FrontEnd Jr. Check - TI</p>
-        <p>vmanriquez@sourcing.cl</p>
-        <p>Pdte Errázuriz 2999 of 201, Las Condes</p>
-        <p><a href="http://checklaboral.cl">www.checklaboral.cl</a></p>
-        <p>
+        </th>
+        <th></th>
+      </tr>
+      <tr>
+        <td class="border-left size-big">
+          Valeria Manríquez A.
+        </td>
+      </tr>
+      <tr>
+        <td class="border-left">
+          Developer FrontEnd Check-TI
+        </td>
+      </tr>
+      <tr>
+        <td class="border-left">
+          <span style="padding-right: 5px; font-size: 12px;" class="bold">+56 9 5455 1866</span>
+          <span class="border-left" style="padding-left: 5px;">
+            vmanriquez@sourcing.cl
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td class="border-left">
+          Pdte Errázuriz 9991 of 201, Las Condes
+        </td>
+      </tr>
+      <tr>
+        <td class="border-left">
+          <a href="www.checklaboral.cl" target="_black">
+            www.checklaboral.cl
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="border-left">
           <a
             href="https://www.linkedin.com/in/valeria-manriquez/"
             target="_blank"
           >
             <img
-              src="https://raw.githubusercontent.com/Dhamary08/Email-Sign/master/linkedin-in.png"
-              class="img-linkedin"
+              src="https://raw.githubusercontent.com/Dhamary08/Email-Sign/master/linkedin-blue.png"
+              alt=""
+              class="img-linkedIn"
             />
           </a>
-        </p>
-      </div>
-    </div>
+        </td>
+      </tr>
+      <tr><td style="padding: 5px;"></td></tr>
+    </table>
   </body>
 </html>
